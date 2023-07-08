@@ -42,6 +42,6 @@ inquirer
     svg.setShape(shape);
     fs.writeFile("logo.svg", svg.render(), (err) => {
       if (err) console.log(err)
-      console.log("Success!")
+      console.log('Generated logo.svg');
     })
   }).catch(err => { console.log(err) })
